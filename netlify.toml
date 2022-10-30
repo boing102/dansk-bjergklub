@@ -1,0 +1,6 @@
+[build]
+  command = "hugo && npx -y pagefind --source public"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "v0.105.0"
