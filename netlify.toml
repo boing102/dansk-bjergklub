@@ -4,3 +4,8 @@
 
 [build.environment]
   HUGO_VERSION = "v0.105.0"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = noindex
